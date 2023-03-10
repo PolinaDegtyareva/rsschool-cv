@@ -54,3 +54,14 @@ const sumNested = arr => {
 };
 ```
 ***
+# Education :
+* Yanka Kupala State University of Grodno, Jurisprudence, Criminal Department (2018 - 2022)
+* Stepik, JavaScript for beginner
+![Certificate](/images/photo_2023-03-09_21-47-17.jpg)
+[Link to certificate](https://stepik.org/cert/1861864)
+* Courses on YouTube on the HTML, CSS, JavaScript
+* Self-study on the Git/GitHub
+***
+# English :
+Intermediate (according to the online test at https://www.efset.org)
+![Certificate](/images/photo_2023-03-09_21-56-15.jpg)
