@@ -15,3 +15,42 @@
 # About Me :
 I'm 23 y.o. I want to connect my future to front-end development. I can sit fot hours writing code, learning new material because I really enjoy it. I like to develop in this direction. Now, on the RS School course Front-End I want to take the maximum amount of knowledge and experience to get a job in the company as a Front-End developer. Desides writing code, I'm also improving my English.
 ***
+# Skills:
+* HTML
+* CSS(Bootstrap)
+* Git/GitHub
+* JavaScript
+* WebStorm / VS Code
+***
+# Code examples :
+```
+function finalGrade (exam, projects) {
+  return (exam > 90 || projects > 10) ?
+       100 : (exam > 75 && projects >= 5) ?
+           90 : (exam > 50 && projects >= 2) ?
+               75 : 0
+}
+```
+```
+Dragon = function (n) {
+    let str = 'Fa'
+    let a = 'aRbFR'
+    let b = 'LFaLb'
+    if (n < 0 || parseInt(n) !== n) { 
+        return ''
+    }
+  if (n >= 0){
+    for (let i = 0; i < n; i++) {
+        str = str.replace(/[ab]/g, v => v === 'a' ? a : v === 'b' ? b : v)
+    }}
+    return str.replace(/[ab]/g, '')
+}
+```
+```
+const sumNested = arr => {
+  return arr.reduce(function(sum, num) {
+    return sum + (Array.isArray(num) ? sumNested(num) : num)
+  },0)
+};
+```
+***
