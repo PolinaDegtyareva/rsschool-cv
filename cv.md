@@ -12,3 +12,6 @@
 ###### __Codewars__ : https://www.codewars.com/users/rsschool_684800dbf82872ba
 ###### __Telegram__ : https://t.me/PolinaDegtyareva99
 ***
+# About Me :
+I'm 23 y.o. I want to connect my future to front-end development. I can sit fot hours writing code, learning new material because I really enjoy it. I like to develop in this direction. Now, on the RS School course Front-End I want to take the maximum amount of knowledge and experience to get a job in the company as a Front-End developer. Desides writing code, I'm also improving my English.
+***
