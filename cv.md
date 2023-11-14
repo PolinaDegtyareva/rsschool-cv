@@ -51,3 +51,11 @@ Dragon = function (n) {
     return str.replace(/[ab]/g, '')
 }
 ```
+
+# Education :
+* Yanka Kupala State University of Grodno, Jurisprudence, Criminal Department (2018 - 2022)
+* Stepik, JavaScript for beginner
+[Link to certificate](https://stepik.org/cert/1861864)
+
+# English :
+Intermediate (according to the online test at https://www.efset.org)
