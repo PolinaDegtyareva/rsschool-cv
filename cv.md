@@ -58,4 +58,4 @@ Dragon = function (n) {
 [Link to certificate](https://stepik.org/cert/1861864)
 
 # English :
-Intermediate (according to the online test at https://www.efset.org)
+Intermediate (according to the online test at [efset.org](https://www.efset.org))
