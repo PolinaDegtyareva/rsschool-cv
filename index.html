@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Polina Degtyareva</title>
 </head>
-
 <body>
   <header class="header">
     <nav class="nav">
@@ -36,62 +35,64 @@
     <div class="aside">
       <div class="photo-contacts">
         <figure>
-          <img src="img/my_photo.jpg" alt="" class="my-photo">
+          <img class="my-photo" src="img/my_photo.jpg" alt="my photo" width="350">
         </figure>
       </div>
       <section class="contacts" id="contacts">
         <h2 class="contacts__title">Contacts</h2>
-        <ul class="contscts__list">
+        <ul class="contacts__list">
           <li class="contacts__item">
-            Location: Belarus, Minsk
+            <b>Location</b>: Belarus, Minsk
           </li>
           <li class="contacts__item">
-            GitHub:
-            <a href="https://github.com/PolinaDegtyareva" class="contacts__link" target="_blank">PolinaDegtyareva</a>
+            <b>GitHub</b>:
+            <a class="contacts__link" href="https://github.com/PolinaDegtyareva" target="_blank">PolinaDegtyareva</a>
           </li>
           <li class="contacts__item">
-            Email:
-            <a href="gmail.com" class="contacts__link" target="_blank">polina.degtyareva.99@gmail.com</a>
+            <b>Email</b>:
+            <a class="contacts__link" href="https://gmail.com" target="_blank">polina.degtyareva.99@gmail.com</a>
           </li>
           <li class="contacts__item">
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/polina-degtyareva-frontend-developer/" class="contacts__link"
-              target="_blank">Polina Degtyareva</a>
+            <b>LinkedIn</b>:
+            <a class="contacts__link" href="https://www.linkedin.com/in/polina-degtyareva-frontend-developer/" target="_blank">Polina Degtyareva</a>
           </li>
           <li class="contacts__item">
-            <a href="https://t.me/PolinaDegtyareva99" class="contacts__link" target="_blank">Telegram: tap here</a>
+            <b>Telegram:</b>
+            <a class="contacts__link" href="https://t.me/PolinaDegtyareva99" target="_blank">tap here</a>
           </li>
         </ul>
       </section>
     </div>
-    <section class="about" id="About me">
-      <h1 class="title">Polina Degtyareva</h1>
-      <p class="title__sub">Front-end Developer</p>
-      <h2>About me</h2>
-      <p class="summary">My name is Polina. I am 23 years old. I started self-training in front-end development about a
-        year ago.
-        I want to connect my future with front-end development. And so I want to take the maximum amount of knowledee
-        and experience from this course.
-        I can spend all day in front of computer almost without interruption when I start to solve some tasks, search
-        for necessary information and so on.
-        Also I'm learning English no my own, because I understand that it's necessary for the work of a developer.</p>
-    </section>
-    <section class="skills" id="Skills">
-      <h2>Skills</h2>
-      <ul class="skills__list">
-        <li class="skills__item">HTML</li>
-        <li class="skills__item">CSS</li>
-        <li class="skills__item">Git / GitHub</li>
-        <li class="skills__item">JavaScript</li>
-        <li class="skills__item">WebStorm / VS Code</li>
-        <li class="skills__item">Figma</li>
-      </ul>
-    </section>
-    <section class="code" id="Code">
-      <h2>Code Example</h2>
-      <a href="https://www.codewars.com/kata/53ad7224454985e4e8000eaa" class="code__link" target="_blank">Task
-        description</a>
-      <pre>
+    <div class="all-info">
+      <section class="about" id="About me">
+        <h1 class="title">Polina Degtyareva</h1>
+        <span class="underline"></span>
+        <p class="title__sub">Front-end Developer</p>
+        <h2>About me</h2>
+        <p class="summary">My name is Polina. I am 23 years old. I started self-training in front-end development about
+          a
+          2 years ago.
+          I want to connect my future with front-end development. And so I want to take the maximum amount of knowledge
+          and experience from this course.
+          I can spend all day in front of computer almost without interruption when I start to solve some tasks, search
+          for necessary information and so on.
+          Also I'm learning English no my own, because I understand that it's necessary for the work of a developer.</p>
+      </section>
+      <section class="skills" id="Skills">
+        <h2>Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML</li>
+          <li class="skills__item">CSS</li>
+          <li class="skills__item">Git / GitHub</li>
+          <li class="skills__item">JavaScript</li>
+          <li class="skills__item">WebStorm / VS Code</li>
+          <li class="skills__item">Figma</li>
+        </ul>
+      </section>
+      <section class="code" id="Code">
+        <h2 class="code__title">Code Example</h2>
+        <a class="code__link" href="https://www.codewars.com/kata/53ad7224454985e4e8000eaa" target="_blank">Task description</a>
+        <pre>
         <code class="code__example">
           Dragon = function (n) {
             let str = 'Fa'
@@ -109,41 +110,42 @@
           }
         </code>
       </pre>
-    </section>
-    <section class="education" id="Education">
-      <h2>Education</h2>
-      <ul class="education__list">
-        <li class="education__item">Yanka Kupala State University of Grodno, Jurisprudence, Criminal Department (2018 -
-          2022)</li>
-        <li class="education__item">
-          Stepik, JavaScript for beginner (2022)
-          <a href="https://stepik.org/cert/1861864" class="education__item" target="_blank">Link to Certificate</a>
-        </li>
-        <li class="education__item">
-          The Rolling Scope School JS/FE Pre-School 2023Q2
-        </li>
-        <li class="education__item">
-          The Rolling Scope School JavaScript/Front-end 2023Q4 (In progress)
-        </li>
-      </ul>
-    </section>
-    <section class="language" id="Language">
-      <h2>Language</h2>
-      <ul class="language__list">
-        <li class="language__item">Russian (Native)</li>
-        <li class="language__item">English (Pre-Intermidiate)</li>
-      </ul>
-    </section>
+      </section>
+      <section class="education" id="Education">
+        <h2>Education</h2>
+        <ul class="education__list">
+          <li class="education__item">Yanka Kupala State University of Grodno, Jurisprudence, Criminal Department (2018
+            -
+            2022)</li>
+          <li class="education__item">
+            Stepik, JavaScript for beginner (2022)
+            <a class="education__item" href="https://stepik.org/cert/1861864" target="_blank">Link to Certificate</a>
+          </li>
+          <li class="education__item">
+            The Rolling Scope School JS/FE Pre-School 2023Q2
+          </li>
+          <li class="education__item">
+            The Rolling Scope School JavaScript/Front-end 2023Q4 (In progress)
+          </li>
+        </ul>
+      </section>
+      <section class="language" id="Language">
+        <h2>Language</h2>
+        <ul class="language__list">
+          <li class="language__item">Russian (Native)</li>
+          <li class="language__item">English (Pre-Intermidiate)</li>
+        </ul>
+      </section>
+    </div>
   </main>
   <footer class="footer">
-    <a href="https://github.com/PolinaDegtyareva" class="footer__link" target="_blank">
+    <a class="footer__link" href="https://github.com/PolinaDegtyareva" target="_blank">
       <img src="img/github-mark.svg" width="50" height="40" alt="link to my GitHub">
     </a>
     <p class="footer__year">2023</p>
-    <a href="https://rs.school/js/" class="footer__link" target="_blank">
+    <a class="footer__link" href="https://rs.school/js/" target="_blank">
       <img src="img/logo_rs_school.svg" width="100" height="40" alt="logo rs school">
     </a>
   </footer>
 </body>
-
 </html>
