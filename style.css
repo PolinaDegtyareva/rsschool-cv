@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a,
+li,
+ul{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(246, 212, 170);
+}
+
+p,
+h1,
+h2,
+li,
+a,
+ul {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+html{
+  scroll-behavior: smooth;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: bisque;
+}
+
+.nav {
+  height: 40px;
+  vertical-align:bottom;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+  align-items: center;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__link {
+  font-weight: 700;
+  text-shadow: 0 1px 1px grey ;
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 8%;
+}
+
+.aside,
+.all-info {
+  padding: 20px 0 0 0;
+}
+
+.aside {
+  padding: 10px;
+}
+
+.my-photo {
+  border-radius: 10%;
+  box-shadow: -4px 4px 2px rgb(190, 190, 198);
+}
+
+.contacts {
+  margin: 20px 0 0 0;
+}
+
+.contacts__list {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+.contacts__link {
+  color: black;
+}
+
+.all-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.underline{
+  width: 207px;
+  height: 2px;
+  background: rgb(246, 212, 170);
+}
+
+.skills__list,
+.code__title,
+.education__list,
+.language__list {
+  padding-top: 20px;
+}
+
+.skills__item::before,
+.education__item::before,
+.language__item::before {
+  color: darkgoldenrod;
+  content: '▪';
+  padding-right: 10px;
+}
+
+pre {
+  background: linear-gradient(to right, bisque, white);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 10px;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.footer__year {
+  text-align: center;
+}
+
+@keyframes hide{
+  0%{
+    box-shadow: -10px 10px 10px rgb(212, 212, 212);
+  }
+  100%{
+    box-shadow: none;
+  }
+}
+
+section:target {
+  animation: hide linear 1.3s;
+}
